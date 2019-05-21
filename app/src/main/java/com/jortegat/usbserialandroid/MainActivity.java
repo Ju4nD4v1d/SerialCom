@@ -10,6 +10,7 @@ import android.util.Log;
 import com.jortegat.usbserialandroid.usbhostserialcom.UsbSerialDevice;
 import com.jortegat.usbserialandroid.usbhostserialcom.UsbSerialInterface;
 
+import java.io.UnsupportedEncodingException;
 import java.nio.ByteBuffer;
 import java.util.HashMap;
 
@@ -51,8 +52,12 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void onReceivedData(byte[] data) {
             ByteBuffer wrapped = ByteBuffer.wrap(data);
-            int cardId = wrapped.getInt();
-            Log.d("BARCODE", "BARCODE RECEIVED: " + cardId);
+            try {
+                Log.d("BARCODE", "DATA RECEIVED: " + new String(data, "UTF-8"));
+            } catch (UnsupportedEncodingException e) {
+                e.printStackTrace();
+            }
+
         }
     };
 
