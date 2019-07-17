@@ -1,0 +1,15 @@
+
+~squid:S3038n"b"setDataBits" is defined in the "UsbSerialInterface" interface and can be removed from this class.(òº‘ïûÿÿÿÿ
+Gsquid:S00108ÿ")Either remove or fill this block of code.(™º©ùÿÿÿÿ
+{squid:S3038L"_"syncOpen" is defined in the "UsbSerialInterface" interface and can be removed from this class.(òº‘ïûÿÿÿÿ
+Bsquid:S00108")Either remove or fill this block of code.(ëÀØº
+Gsquid:S00108ú")Either remove or fill this block of code.(À»°Êøÿÿÿÿ
+rsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¤‘Í…
+xsquid:S3038I"\"close" is defined in the "UsbSerialInterface" interface and can be removed from this class.(òº‘ïûÿÿÿÿ
+~squid:S3038q"b"setStopBits" is defined in the "UsbSerialInterface" interface and can be removed from this class.(òº‘ïûÿÿÿÿ
+wsquid:S3038+"["open" is defined in the "UsbSerialInterface" interface and can be removed from this class.(òº‘ïûÿÿÿÿ
+|squid:S3038O"`"syncClose" is defined in the "UsbSerialInterface" interface and can be removed from this class.(òº‘ïûÿÿÿÿ
+squid:S3038w"e"setFlowControl" is defined in the "UsbSerialInterface" interface and can be removed from this class.(òº‘ïûÿÿÿÿ
+{squid:S3038z"_"setBreak" is defined in the "UsbSerialInterface" interface and can be removed from this class.(òº‘ïûÿÿÿÿ
+|squid:S3038t"`"setParity" is defined in the "UsbSerialInterface" interface and can be removed from this class.(òº‘ïûÿÿÿÿ
+~squid:S3038k"b"setBaudRate" is defined in the "UsbSerialInterface" interface and can be removed from this class.(òº‘ïûÿÿÿÿ
